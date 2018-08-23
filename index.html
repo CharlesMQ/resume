@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<style type="text/css">
+		body{
+			background-color: #b9bab6;
+		}
 		.mismo-alto{
 			overflow: hidden;
 		}
@@ -14,7 +17,7 @@
 		    padding-bottom: 99999px;
 		}
 		.color-gris{
-			background-color: #eee;
+			background-color: #b9bab6;
 		}
 		.color-gris-fuerte{
 			background-color: #424242;
@@ -27,23 +30,56 @@
 			margin-top: 0px;
 			margin-bottom: 0px;
 		}
+		.contenedor-skill{
+			width: 100%;
+			background-color: #ddd;
+		}
+		.skills{
+			padding: 10px;
+			text-align: right;
+			color: white;
+		}
+		.java{
+			width: 90%;
+			background-color: #1A237E;
+		}
+		.java-script{
+			width: 90%;
+			background-color: #283593;
+		}
+		.html{
+			width: 95%;
+			background-color: #303F9F; 
+		}
+		.xml{
+			width: 100%;
+			background-color: #3949AB; 
+		}
+		.json{
+			width: 100%;
+			background-color: #3F51B5; 
+		}
 	</style>
 </head>
 <body>
-	<div class="container">
+	<div class="container color-gris">
 		<div class="row mismo-alto">
-			<div class="col-md-7 col-md-push-5"style="background-color: #eee;">
+			<div class="col-md-7 col-md-push-5">
 				<div class="text-center">
 					<img src="carlos.jpg" class="img-responsive img-circle" style="max-height: 200px; max-height: 200px; margin: 0 auto">
 				</div>
 			</div>
-			<div class="col-md-5 color-gris col-md-pull-7" style="min-width: 200px;">
+			<div class="col-md-5 col-md-pull-7" style="min-width: 200px;">
 				<div class="col-md-12">
 					<h1>Carlos Mart&iacute;nez Quezada<h1>
 				</div>
 				<div class="col-md-12">
 					<h2>Java Developer<h2>
 				</div>
+			</div>
+		</div>
+		<div class="row mismo-alto">
+			<div class="col-md-5">
 				<div class="col-md-12">
 					<h3 class="color-gris-fuerte">Personal Information</h3>
 				</div>
@@ -68,6 +104,48 @@
 				<div class="col-md-12">
 					<h3 class="color-gris-fuerte">Technical Skill</h3>
 				</div>
+				<div class="col-md-12">
+					<p><strong>Java</strong></p>
+					<div class="contenedor-skill">
+						<div class="skills java">
+							90%
+						</div>
+					</div>
+					<p><strong>JavaScript</strong></p>
+					<div class="contenedor-skill">
+						<div class="skills java-script">
+							90%
+						</div>
+					</div>
+					<p><strong>HTML</strong></p>
+					<div class="contenedor-skill">
+						<div class="skills html">
+							95%
+						</div>
+					</div>
+					<p><strong>XML</strong></p>
+					<div class="contenedor-skill">
+						<div class="skills xml">
+							100%
+						</div>
+					</div>
+					<p><strong>JSON</strong></p>
+					<div class="contenedor-skill">
+						<div class="skills json">
+							100%
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div class="col-md-12">
+					<h3 class="color-gris-fuerte">Experience</h3>
+				</div>
+			</div>
+		</div><!-- Fin de segunda fila-->
+		<div class="row">
+			<div style="padding-top: 50px">
+				
 			</div>
 		</div>
 	</div>
